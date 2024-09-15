@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="GlXY_G_ORel_VDKTJhLn">
-    <mxGraphModel dx="2077" dy="1789" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3467" dy="2163" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,7 @@
           <mxGeometry x="210" y="30" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-48" value="Hybrid BL-RP Design" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1858" y="-411" width="290" height="40" as="geometry" />
+          <mxGeometry x="2378" y="-444" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-50" target="TARDtOtiL3f8g0dl2za9-6">
           <mxGeometry relative="1" as="geometry" />
@@ -130,7 +130,10 @@
         <mxCell id="TARDtOtiL3f8g0dl2za9-72" value="Phase 4:&amp;nbsp;&lt;div&gt;ML Refinement&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-124" y="742.5" width="173" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="TARDtOtiL3f8g0dl2za9-79" value="Black Litterman Allocation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TARDtOtiL3f8g0dl2za9-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-79" target="TARDtOtiL3f8g0dl2za9-295">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-79" value="Black Litterman" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="115.75" width="948" height="298.5" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-158" value="Attributes and Data Types" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-79">
@@ -326,14 +329,30 @@
             <mxRectangle width="319" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TARDtOtiL3f8g0dl2za9-208" value="Risk Parity Optimisation" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1541" y="450.75" width="948" height="298.5" as="geometry" />
+        <mxCell id="TARDtOtiL3f8g0dl2za9-417" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-208" target="TARDtOtiL3f8g0dl2za9-295">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-208" value="Risk Parity" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="115.75" width="948" height="208.25" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-209" value="Attributes and Data Types" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-208">
-          <mxGeometry x="15" y="39.5" width="330" height="62" as="geometry" />
+          <mxGeometry x="15" y="39.5" width="330" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-322" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-209">
+          <mxGeometry y="32" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-323" value="portfolio_risk" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-322">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-324" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-322">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-210" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-209">
-          <mxGeometry y="32" width="330" height="30" as="geometry" />
+          <mxGeometry y="62" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-211" value="something" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-210">
           <mxGeometry width="166" height="30" as="geometry">
@@ -345,20 +364,308 @@
             <mxRectangle width="164" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-328" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-209">
+          <mxGeometry y="92" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-329" value="stock_risk_cont" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-328">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-330" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-328">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-300" value="Methods" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-208">
+          <mxGeometry x="363" y="39.5" width="568" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-301" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-300">
+          <mxGeometry y="30" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-302" value="portfolio_variance()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-301">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-303" value="Calculate variance (volatility)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-301">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-304" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-300">
+          <mxGeometry y="60" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-305" value="calculate_risk_contribution()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-304">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-306" value="Calculate risk contribution of assets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-304">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-307" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-300">
+          <mxGeometry y="90" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-308" value="risk_budget_objective()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-307">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-309" value="Define risk budget objective" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-307">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-310" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-300">
+          <mxGeometry y="120" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-311" value="risk_parity_weights()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-310">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-312" value="Obtain optimised weights using SciPy" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-310">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-253" target="TARDtOtiL3f8g0dl2za9-255">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TARDtOtiL3f8g0dl2za9-253" value="Initial Model&amp;nbsp;&lt;div&gt;Construction&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1319" y="247" width="166.5" height="40" as="geometry" />
+        <mxCell id="TARDtOtiL3f8g0dl2za9-253" value="Hybrid BL-RP Model&amp;nbsp;&lt;div&gt;Construction&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1334" y="245" width="166.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-289" value="Packages/Libraries" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1334" y="-77" width="166.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-257" value="Risk Distribution" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="1319" y="582" width="166.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-295" value="Long-Short Term Memory (LSTM)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="578" width="948" height="344" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-296" value="Attributes and Data Types" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-295">
+          <mxGeometry x="15" y="39.5" width="414" height="286.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-370" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="32" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-371" value="scaler" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-370">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-372" value="from MinMaxScaler()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-370">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-376" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="62" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-377" value="train" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-376">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-378" value="dataframe" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-376">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-373" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="92" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-374" value="test" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-373">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-375" value="dataframe" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-373">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-392" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="122" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-393" value="scaled_train" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-392">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-394" value="dataframe" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-392">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-395" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="152" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-396" value="scaled_test" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-395">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-397" value="dataframe" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-395">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-398" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="182" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-399" value="num_input" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-398">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-400" value="int" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-398">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-401" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="212" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-402" value="num_feature" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-401">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-403" value="int" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-401">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-297" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-296">
+          <mxGeometry y="242" width="414" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-298" value="generator" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-297">
+          <mxGeometry width="181" height="30" as="geometry">
+            <mxRectangle width="181" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-299" value="using TimeSeriesGenerator()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-297">
+          <mxGeometry x="181" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-379" value="Methods" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-295">
+          <mxGeometry x="450" y="40.5" width="454" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-380" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="32" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-381" value="MinMaxScaler" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-380">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-382" value="Rescale dataset" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-380">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-383" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="62" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-384" value="transform()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-383">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-385" value="Transform dataset" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-383">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-386" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="92" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-387" value="TimeSeriesGenerator()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-386">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-388" value="Generate time series" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-386">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-389" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="122" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-390" value="Sequential()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-389">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-391" value="Generate sequential time series" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-389">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-404" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="152" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-405" value=".add()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-404">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-406" value="Define shape and features" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-404">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-407" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="182" width="454" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-408" value=".compile()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-407">
+          <mxGeometry width="215" height="44" as="geometry">
+            <mxRectangle width="215" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-409" value="Define optimiser and loss function" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-407">
+          <mxGeometry x="215" width="239" height="44" as="geometry">
+            <mxRectangle width="239" height="44" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-410" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="226" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-411" value=".fit()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-410">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-412" value="With generator and epochs" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-410">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-413" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-379">
+          <mxGeometry y="256" width="454" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-414" value=".summary()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-413">
+          <mxGeometry width="215" height="30" as="geometry">
+            <mxRectangle width="215" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-415" value="Show architecture summary" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-413">
+          <mxGeometry x="215" width="239" height="30" as="geometry">
+            <mxRectangle width="239" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-262" value="Package Imports" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1541" y="-217" width="175" height="298.5" as="geometry" />
+          <mxGeometry x="1541" y="-202" width="172" height="290" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-282" value="Libraries" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-262">
-          <mxGeometry x="15" y="39" width="140" height="180" as="geometry" />
+          <mxGeometry x="15" y="39" width="140" height="240" as="geometry" />
         </mxCell>
         <mxCell id="TARDtOtiL3f8g0dl2za9-283" value="Pandas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -372,11 +679,270 @@
         <mxCell id="TARDtOtiL3f8g0dl2za9-286" value="Numpy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TARDtOtiL3f8g0dl2za9-287" value="PyPortfolioOpt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
+        <mxCell id="TARDtOtiL3f8g0dl2za9-368" value="PyPortfolioOpt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TARDtOtiL3f8g0dl2za9-289" value="Packages/Libraries" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1319" y="-87.75" width="166.5" height="40" as="geometry" />
+        <mxCell id="TARDtOtiL3f8g0dl2za9-369" value="TensorFlow" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
+          <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-287" value="SkLearn" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-282">
+          <mxGeometry y="210" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-419" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-363" target="TARDtOtiL3f8g0dl2za9-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-363" value="Markov Switching" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="-202" width="460" height="204.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-331" value="Methods/Classes" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-363">
+          <mxGeometry x="17" y="37.5" width="423" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-332" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-331">
+          <mxGeometry y="32" width="423" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-333" value="k_regimes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-332">
+          <mxGeometry width="190" height="30" as="geometry">
+            <mxRectangle width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-334" value="Number of regimes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-332">
+          <mxGeometry x="190" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-335" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-331">
+          <mxGeometry y="62" width="423" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-336" value="order" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-335">
+          <mxGeometry width="190" height="30" as="geometry">
+            <mxRectangle width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-337" value="Order of autoregression" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-335">
+          <mxGeometry x="190" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-357" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-331">
+          <mxGeometry y="92" width="423" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-358" value="MarkovRegression" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-357">
+          <mxGeometry width="190" height="30" as="geometry">
+            <mxRectangle width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-359" value="Markov Switching Class" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-357">
+          <mxGeometry x="190" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-360" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-331">
+          <mxGeometry y="122" width="423" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-361" value="summary()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-360">
+          <mxGeometry width="190" height="30" as="geometry">
+            <mxRectangle width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-362" value="Summary of results" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-360">
+          <mxGeometry x="190" width="233" height="30" as="geometry">
+            <mxRectangle width="233" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-469" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TARDtOtiL3f8g0dl2za9-420" target="TARDtOtiL3f8g0dl2za9-295">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3503" y="-138" />
+              <mxPoint x="3503" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-420" value="Mean Variance" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2403" y="-316" width="948" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-421" value="Attributes and Data Types" style="shape=table;startSize=32;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-420">
+          <mxGeometry x="15" y="39.5" width="330" height="302.3055555555553" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-422" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="32" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-423" value="mean_returns()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-422">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-424" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-422">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-425" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="62" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-426" value="covariance_matrix()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-425">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-427" value="NxN array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-425">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-447" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="92" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-448" value="volatility" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-447">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-449" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-447">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-450" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="122" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-451" value="returns" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-450">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-452" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-450">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-456" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="152" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-457" value="weights" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-456">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-458" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-456">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-453" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="182" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-454" value="num_assets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-453">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-455" value="Int" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-453">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-459" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="212" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-460" value="contraints" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-459">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-461" value="Dict" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-459">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-462" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="242" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-463" value="mv_returns" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-462">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-464" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-462">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-431" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-421">
+          <mxGeometry y="272" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-432" value="mv_volatility" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-431">
+          <mxGeometry width="166" height="30" as="geometry">
+            <mxRectangle width="166" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-433" value="np.array" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-431">
+          <mxGeometry x="166" width="164" height="30" as="geometry">
+            <mxRectangle width="164" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-434" value="Methods" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-420">
+          <mxGeometry x="363" y="39.5" width="568" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-435" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-434">
+          <mxGeometry y="30" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-436" value="mean()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-435">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-437" value="Calculate mean (returns)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-435">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-438" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-434">
+          <mxGeometry y="60" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-439" value="cov()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-438">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-440" value="Obtain covariance of given assets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-438">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-441" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-434">
+          <mxGeometry y="90" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-442" value="sco.minimise()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-441">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-443" value="Optimise portfolio with given constraints" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-441">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-444" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-434">
+          <mxGeometry y="120" width="568" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-445" value="EfficientFrontier()" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-444">
+          <mxGeometry width="249" height="30" as="geometry">
+            <mxRectangle width="249" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-446" value="Visualise optimal portfolio against EF" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="TARDtOtiL3f8g0dl2za9-444">
+          <mxGeometry x="249" width="319" height="30" as="geometry">
+            <mxRectangle width="319" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-465" value="Markov-Switching to Identify Bullish and Bearish Markets" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1727.5" y="-276" width="465" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-466" value="Benchmark Mean Variance Model" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2717.87" y="-380" width="318.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TARDtOtiL3f8g0dl2za9-467" value="Machine Learning&amp;nbsp;&lt;div&gt;Returns Forecasting&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="710" width="187" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
