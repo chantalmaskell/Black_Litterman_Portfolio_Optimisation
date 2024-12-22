@@ -1,6 +1,8 @@
 # Virtual environments
 env/
 venv/
+.venv/
+venv/
 
 # Project notes
 notes.txt
