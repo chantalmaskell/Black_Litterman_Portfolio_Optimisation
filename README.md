@@ -16,7 +16,7 @@ Black Litterman model for investment portfolio optimisation, consisting of three
   <li>Variant 3 (FGMS-BL): Combines Fear-Greed indicators and Markov-Switching to generate both investor views and view confidences
 </ol>
 
-## Running the Models:
+## Running a Model:
 
 Each model variant has its own Jupyter Notebook. Use the steps below to run the models:
 
@@ -24,3 +24,14 @@ Each model variant has its own Jupyter Notebook. Use the steps below to run the 
     <li>Clone the repository.</li>
     <li></li>
 </ol>
+
+## Model Components:
+
+Each model produces several metrics that can be used to gauge the portfolio's performance and sensitivity. Performance can be assessed against either Minimum Volatility or Max Sharpe portfolios. The following metrics are produced by optimisations:
+<ul>
+    <li>Annual returns
+    <li>Annual volatility
+    <li>Sharpe Ratio (excess return per unit of risk)
+    <li>Discrete Allocation (how much of each asset needs purchasing to achieve the optimal portfolio)
+    <li>Sensitivity analysis of: Views, confidences, Prior, Tau
+</ul>
