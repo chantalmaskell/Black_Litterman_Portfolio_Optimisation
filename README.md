@@ -18,12 +18,16 @@ Black Litterman model for investment portfolio optimisation, consisting of three
 
 ## Running a Model:
 
-Each model variant has its own Jupyter Notebook. Use the steps below to run the models:
+Each model variant has its own Jupyter Notebook. Use the steps below to run any of the models.
 
-<ol>
-    <li>Clone the repository.</li>
-    <li></li>
-</ol>
+First, clone the repository.
+
+Next, run the following command. This will replicate the original package setup:
+```
+$ pip install -r requirements.txt
+```
+
+As a user of the models, all you need to do from here is set the time period for which the asset data will be based on (from yFinance). From here, define the assets you wish to use in the portfolio allocation. These will need to be defined by their tickers i.e. Apple would be AAPL (required for data retrieval from Yahoo Finance API). This can be any number of assets, and just needs to be defined within the 'tickers' array.
 
 ## Model Components:
 
